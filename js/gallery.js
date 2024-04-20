@@ -65,10 +65,6 @@ const images = [
     ];
     
 
-  
-  // Отримуємо посилання на ul елемент з класом gallery, де ми будемо додавати елементи галереї
-  
-
   const gallery = document.querySelector("ul.gallery");
 
   const markup = images.reduce((html, image) => {
